@@ -7,33 +7,42 @@ const Header = () => {
                 <div className="container">
                     <nav className="header__nav">
                         <div className="wrapper">
-                            <div className="nav__item active">
+                            <div className="header__nav-item header__nav-item--active">
                                 <a href="#">Главная</a>
                             </div>
-                            <div className="nav__item">
+                            <div className="header__nav-item">
                                 <a href="#">Наши проекты</a>
                             </div>
-                            <div className="nav__item">
+                            <div className="header__nav-item">
                                 <a href="#">Услуги</a>
                             </div>
-                            <div className="nav__item">
+                            <div className="header__nav-item">
                                 <a href="#">Новости</a>
                             </div>
-                            <div className="nav__item">
+                            <div className="header__nav-item">
                                 <a href="#">Контакты</a>
                             </div>
                         </div>
-                        <hr />
                     </nav>
+                </div>
+                <hr />
 
-                    <div className="header__suptitle">
-                        <p>Передовая IT студия</p>
-                    </div>
-                    <div className="header__title">
-                        <p>Мы создаем легкие решения сложных задач и проблем</p>
-                    </div>
-                    <div className="header__link">
-                        <a href='#'>Наши проекты</a>
+                <div className="container container--header">
+                    <div className="header__info">
+                        <div className="header__info-suptitle">
+                            <p>
+                                Передовая IT студия
+                            </p>
+                        </div>
+                        <div className="header__info-title">
+                            <p>
+                                Мы создаем легкие решения сложных задач и
+                                проблем
+                            </p>
+                        </div>
+                        <div className="header__info-link">
+                            <a href="#">Наши проекты</a>
+                        </div>
                     </div>
                 </div>
             </header>
